@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100wh;
+    height: 100vh;
+    background-color: blueviolet;
+}
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 734px)
+ {
+   video width: 100%;
+}
